@@ -15,4 +15,4 @@ To use RoSocial in your Roblox game, follow these steps:
 2. Import the module into your game
 3. Require the module in your scripts:
 
-`local RoSocial = require(path.to.RoSocial)
+`local RoSocial = require(path.to.RoSocial)`
