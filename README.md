@@ -18,3 +18,23 @@ To use RoSocial in your Roblox game, follow these steps:
 ```lua
 local RoSocial = require(path.to.RoSocial)
 ```
+
+## Usage
+
+### Handling Asynchronous Operations with Promises
+
+RoSocial uses Promises to manage asynchronous operations, such as fetching data or making API calls. Promises simplify error handling and chaining of asynchronous tasks. Here’s how you can integrate Promises into your usage of RoSocial:
+
+#### Example: Fetching Friends List
+
+```lua
+-- Example using Promises to fetch a player's friends list
+
+local RoSocial = require(game.ReplicatedStorage.RoSocial)
+
+local friends = RoSocial:GetFriends(game.Players.astromaticly)
+
+friends:andThen(function(friendslist)
+	print(friendslist)
+end):catch(warn)
+```
