@@ -9,11 +9,10 @@ Messaging System: Send and receive messages between players.
 Party System: Create and manage in-game parties.
 Player Status Tracking: Track online/offline status of players.
 
-Installation
+# Installation
 To use RoSocial in your Roblox game, follow these steps:
+1. Download the latest release from GitHub Releases.
+2. Import the module into your game
+3. Require the module in your scripts:
 
-Download the latest release from GitHub Releases.
-
-Import the module into your game.
-
-Require the module in your scripts:
+`local RoSocial = require(path.to.RoSocial)
