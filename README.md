@@ -20,7 +20,7 @@ local RoSocial = require(path.to.RoSocial)
 ```
 
 Ensure you have Promise.lua installed:
-Install with: [luapromises.github.io/lua-promises]
+Install with: [luapromises.github.io/lua-promises](lua-promises)
 
 ## Usage
 
