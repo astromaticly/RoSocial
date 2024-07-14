@@ -19,8 +19,8 @@ To use RoSocial in your Roblox game, follow these steps:
 local RoSocial = require(path.to.RoSocial)
 ```
 
-# Ensure you have Promise.lua installed:
-Install with: luapromises.github.io/lua-promises
+Ensure you have Promise.lua installed:
+Install with: [luapromises.github.io/lua-promises]
 
 ## Usage
 
@@ -29,7 +29,6 @@ Install with: luapromises.github.io/lua-promises
 RoSocial uses Promises to manage asynchronous operations, such as fetching data or making API calls. Promises simplify error handling and chaining of asynchronous tasks. Here’s how you can integrate Promises into your usage of RoSocial:
 
 #### Example: Fetching Friends List
-
 
 ```lua
 -- Example using Promises to fetch a player's friends list
@@ -42,7 +41,3 @@ friends:andThen(function(friendslist)
 	print(friendslist)
 end):catch(warn)
 ```
-
-
-
-
