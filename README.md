@@ -19,8 +19,9 @@ To use RoSocial in your Roblox game, follow these steps:
 local RoSocial = require(path.to.RoSocial)
 ```
 
-Ensure you have Promise.lua installed:
-Install with: [luapromises.github.io/lua-promises](lua-promises)
+Ensure you have Promise.lua & Warp installed:
+Install promise with: [https://github.com/evaera/roblox-lua-promise](https://github.com/evaera/roblox-lua-promise)
+Install warp with: [https://github.com/imezx/Warp](https://github.com/imezx/Warp)
 
 ## Usage
 
